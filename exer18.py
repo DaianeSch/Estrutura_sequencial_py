@@ -5,6 +5,6 @@
 tamb = float(input('Informe o tamanho do arquivo em MB:'))
 link = float(input('Informe vel da internet em Mbps:'))
 
-cal= tamb/(link/8.0)
-print(cal,'segundos')
+cal= tamb/(link/60)
+print(cal,'minutos')
 
